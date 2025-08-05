@@ -24,7 +24,7 @@
     "Name": "Things That Matter",
     "Description": "",
     "Tags": [],
-    "TargetURL": "file://E:\\",
+    "TargetURL": "file://C:\\",
     "DBPath": "C:\\Users\\o9\\AppData\\Local\\Duplicati\\LWAYUFYWBN.sqlite",
     "Sources": [
       "$Env:UserProfile\\git\\junkdrawer\\",
