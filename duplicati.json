@@ -1,0 +1,81 @@
+{
+  "CreatedByVersion": "2.0.5.1",
+  "Schedule": {
+    "ID": 1,
+    "Tags": [
+      "ID=1"
+    ],
+    "Time": "2023-04-03T08:00:00Z",
+    "Repeat": "1D",
+    "LastRun": "0001-01-01T05:00:00Z",
+    "Rule": "AllowedWeekDays=Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday",
+    "AllowedDays": [
+      "mon",
+      "tue",
+      "wed",
+      "thu",
+      "fri",
+      "sat",
+      "sun"
+    ]
+  },
+  "Backup": {
+    "ID": "1",
+    "Name": "Things That Matter",
+    "Description": "",
+    "Tags": [],
+    "TargetURL": "file://E:\\",
+    "DBPath": "C:\\Users\\o9\\AppData\\Local\\Duplicati\\LWAYUFYWBN.sqlite",
+    "Sources": [
+      "$Env:UserProfile\\git\\junkdrawer\\",
+      "%USERPROFILE%\\git\\notes\\",
+      "%USERPROFILE%\\git\\obsidian-vault\\",
+      "%USERPROFILE%\\git\\ogit\\",
+      "%USERPROFILE%\\git\\sidelines\\",
+      "%USERPROFILE%\\windows\\system32\\drivers\\etc\\hosts"
+    ],
+    "Settings": [
+      {
+        "Filter": "",
+        "Name": "encryption-module",
+        "Value": "",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "compression-module",
+        "Value": "zip",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "dblock-size",
+        "Value": "500MB",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "keep-time",
+        "Value": "1M",
+        "Argument": null
+      },
+      {
+        "Filter": "",
+        "Name": "--no-encryption",
+        "Value": "true",
+        "Argument": null
+      }
+    ],
+    "Filters": [],
+    "Metadata": {},
+    "IsTemporary": false
+  },
+  "DisplayNames": {
+    "%USERPROFILE%\\git\\junkdrawer\\": "junkdrawer",
+    "%USERPROFILE%\\git\\notes\\": "notes",
+    "%USERPROFILE%\\git\\obsidian-vault\\": "obsidian-vault",
+    "%USERPROFILE%\\git\\ogit\\": "ogit",
+    "%USERPROFILE%\\git\\sidelines\\": "sidelines",
+    "%USERPROFILE%\\windows\\system32\\drivers\\etc\\hosts": "hosts"
+  }
+}
